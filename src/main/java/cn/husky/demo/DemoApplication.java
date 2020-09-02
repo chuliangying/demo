@@ -20,7 +20,7 @@ public class DemoApplication extends SpringBootServletInitializer implements App
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @Override
+
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("This is a message from Runner");
     }

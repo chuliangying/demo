@@ -1,5 +1,6 @@
-package cn.husky.demo.interceptor;
+package cn.husky.demo.config;
 
+import cn.husky.demo.interceptor.DemoInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
